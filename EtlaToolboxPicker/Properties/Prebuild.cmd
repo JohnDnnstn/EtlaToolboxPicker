@@ -146,9 +146,10 @@ if NOT [%ext%] == [.cs] @ECHO [assembly: AssemblyInformationalVersion(%myNamespa
 @ECHO   public const string MinorVersion = "1";>>%outfile%
 @ECHO   public const string Version = MajorVersion + "." + MinorVersion;>>%outfile%
 @ECHO.>>%outfile%
-@ECHO   public const string ApplicationName = "GenericCsvWizard";>>%outfile%
+@ECHO   public const string ApplicationName = "ETLA Toolbox Picker";>>%outfile%
 @ECHO   public const string StartYear = "2025";>>%outfile%
-@ECHO   public const string Company = "Scotland's Rural College (SRUC)";>>%outfile%
+@ECHO   public const string Company = "ETLA Services Ltd";>>%outfile%
+@ECHO   public const string CompanyFullName = "ETLA Services Ltd";>>%outfile%
 @ECHO   public const string Copyright = Company + " " + StartYear + "-";>>%outfile%
 @ECHO }>>%outfile%
 
