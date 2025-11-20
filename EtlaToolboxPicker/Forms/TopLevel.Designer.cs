@@ -1,6 +1,6 @@
 ﻿namespace EtlaToolboxPicker
 {
-    partial class Form1
+    partial class TopLevel
     {
         /// <summary>
         ///  Required designer variable.

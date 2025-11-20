@@ -24,7 +24,7 @@ using System.Runtime.Versioning;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 //
-[assembly: Guid("cc25cb18-7283-48da-98bb-118740590b04")]
+[assembly: Guid("ceb2ecbb-a754-488b-b041-52bcd186ea2d")]
 
 // Version numbers
 // * AssemblyVersion: Used to define directory for user.config and by CLR for any referencing assemblies

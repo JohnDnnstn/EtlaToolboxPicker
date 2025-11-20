@@ -1,1 +1,5 @@
+/.vs
 /EtlaToolboxPicker/Properties/AssemblyInfo.cs
+bin
+obj
+*.user
