@@ -3,3 +3,5 @@
 bin
 obj
 *.user
+/EtlaToolboxPicker/Templates/*.etla
+/EtlaToolboxPicker/Templates/Infrastructure/*.etla

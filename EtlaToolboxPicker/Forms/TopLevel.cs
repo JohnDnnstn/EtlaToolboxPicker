@@ -6,5 +6,10 @@ namespace EtlaToolboxPicker
         {
             InitializeComponent();
         }
+
+        private void BtnBrowse_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -11,7 +11,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="EtlaToolbelt\Infrastructure\" />
+    <Folder Include="EtlaToolbelt\Forms\" />
+    <Folder Include="Templates\Infrastructure\" />
+    <Folder Include="Templates\CmdLines\" />
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">

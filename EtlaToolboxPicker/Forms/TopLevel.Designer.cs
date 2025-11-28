@@ -31,7 +31,7 @@
             label1 = new Label();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
-            button1 = new Button();
+            BtnBrowse = new Button();
             label2 = new Label();
             textBox3 = new TextBox();
             checkBox1 = new CheckBox();
@@ -48,6 +48,7 @@
             button3 = new Button();
             button2 = new Button();
             checkBox9 = new CheckBox();
+            button5 = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -76,14 +77,15 @@
             textBox2.Size = new Size(558, 23);
             textBox2.TabIndex = 2;
             // 
-            // button1
+            // BtnBrowse
             // 
-            button1.Location = new Point(713, 48);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 3;
-            button1.Text = "Browse";
-            button1.UseVisualStyleBackColor = true;
+            BtnBrowse.Location = new Point(713, 48);
+            BtnBrowse.Name = "BtnBrowse";
+            BtnBrowse.Size = new Size(75, 23);
+            BtnBrowse.TabIndex = 3;
+            BtnBrowse.Text = "Browse";
+            BtnBrowse.UseVisualStyleBackColor = true;
+            BtnBrowse.Click += BtnBrowse_Click;
             // 
             // label2
             // 
@@ -244,11 +246,21 @@
             checkBox9.Text = "Fascia style tools";
             checkBox9.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // button5
+            // 
+            button5.Location = new Point(713, 415);
+            button5.Name = "button5";
+            button5.Size = new Size(75, 23);
+            button5.TabIndex = 16;
+            button5.Text = "Add Tools";
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // TopLevel
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button5);
             Controls.Add(checkBox9);
             Controls.Add(groupBox1);
             Controls.Add(checkBox8);
@@ -257,11 +269,11 @@
             Controls.Add(checkBox3);
             Controls.Add(textBox3);
             Controls.Add(label2);
-            Controls.Add(button1);
+            Controls.Add(BtnBrowse);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label1);
-            Name = "Form1";
+            Name = "TopLevel";
             Text = "Form1";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
@@ -274,7 +286,7 @@
         private Label label1;
         private TextBox textBox1;
         private TextBox textBox2;
-        private Button button1;
+        private Button BtnBrowse;
         private Label label2;
         private TextBox textBox3;
         private CheckBox checkBox1;
@@ -291,5 +303,6 @@
         private Button button3;
         private Button button2;
         private CheckBox checkBox9;
+        private Button button5;
     }
 }
